@@ -29,6 +29,7 @@
 - Train the model: The code provided trains an HMM tagger on the loaded tagged sentences. It performs data preprocessing, splitting the dataset into training and testing sets, and then trains an HMM tagger using nltk's HiddenMarkovModelTagger.
 - Evaluate the model: The accuracy of the trained model is evaluated on the testing set using the evaluate method of the HMM tagger.
 - Tag new sentences: To tag new sentences, tokenize the sentence using nltk's word\_tokenize method and then tag the tokens using the trained HMM tagger.
+- Accuracy obtained= 94.89%
 
 **6. LICENSE:**
 
